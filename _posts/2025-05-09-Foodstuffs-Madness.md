@@ -17,6 +17,4 @@ Simple, right? Well, not quite—you surely noticed the pessimistic tone. Upon l
 
 ![Screenshot 2025-05-09 221822](https://github.com/user-attachments/assets/5977c843-1953-474e-b947-bff7a55940e7)
 
-Screenshot 2025-05-09 221822
-
 C’mon Foodstuffs, really? What’s with this? You’ve got the data inside `browser_nearest_store` duplicated across three other keys. Oh, and now that you’ve got me started, there’s also `Region` what’s that about? Can’t you get the region from the StoreID in any number of the cookies already storing that?
