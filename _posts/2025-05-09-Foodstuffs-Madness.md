@@ -1,0 +1,3 @@
+## Foodstuffs Madness
+
+Well, it's one of those moments again where I can't figure out how to explain the thing I'm trying to do. What a crazy world. I originally set out to make an app that let me keep track of my kitchen, and instead, it has blown out into a full-blown inspection of Foodstuffs' API for both Pak'nSave and New World.
