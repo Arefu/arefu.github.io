@@ -47,3 +47,17 @@ Would you look at that, I got a reply back, unbelievably they sell no `Mil` item
 ![image](https://github.com/user-attachments/assets/325ec12a-b896-45b7-9026-e7035c01b721)
 
 Ok there is a lot to break down here, so let's just take a step back and think, we've copied the request directly from Firefox, into a cURL and.... nothing. I got errors when using naitive PowerShell methods, which again, doesn't make this project look hopeful... [This is where the real game begins](https://www.youtube.com/@MittenSquad/videos).
+
+
+Well, what's one to do now? I guess I just keep going, I go about booting up WSL to use a Linux build of cURL thinking that it might be a Windows issue, sadly I have to report I got a Cloudflare prompt, so I guess I'm back to square one. 
+
+## Step Two - Mobile Boogaloo
+This is the podracing section, where the story starts to get weird, and we certainly end up in some real odd places from where we started.
+
+I'll save the madness I went through, but the long story short involves installing GAPPs on an old build of Android because I needed root in order to bypass the certificate validation the Pak 'n Save app uses, if there is a better way around it I'm happy to listen.
+![Screenshot 2025-05-11 145112](https://github.com/user-attachments/assets/d1bfb543-f593-4a9f-8ef9-bcd8c70873fb)
+But, we have Http Toolkit looking at traffic from our app, there is a lot of Google noise, but one domain stands out then all the rest, `fsniwaikato.kiwi` what the heck is that? You should do a DNS lookup on that, there are some weird sub-doimains on it. They might be worth their own investigation. But onwards, we can start by filtering our requests to that to help display the stuff we're actually interested in.
+
+![image](https://github.com/user-attachments/assets/53b193e9-d9d2-4a55-ab86-5b564da177cf)
+Well that looks a little bit more readable and easy to follow
+
